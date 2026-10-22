@@ -39,12 +39,26 @@ export default {
     cities: Object,
     letter: String
   },
+  data () {
+    return {
+      scroll: null
+    }
+  },
   computed: {
     ...mapState({
       currentCity: 'city'
     })
   },
   methods: {
+    initScroll () {
+      if (!this.scroll) {
+        this.scroll = new Bscroll(this.$refs.wrapper, {
+          click: true
+        })
+      } else {
+        this.scroll.refresh()
+      }
+    },
     handleCityClick (city) {
       this.changeCity(city)
       this.$router.push('/')
@@ -52,17 +66,22 @@ export default {
     ...mapMutations(['changeCity'])
   },
   watch: {
+    cities () {
+      this.$nextTick(() => {
+        this.initScroll()
+      })
+    },
     letter () {
       if (this.letter) {
-        const element = this.$refs[this.letter][0]
-        this.scroll.scrollToElement(element)
+        const element = this.$refs[this.letter]
+        if (element && element[0] && this.scroll) {
+          this.scroll.scrollToElement(element[0])
+        }
       }
     }
   },
   mounted () {
-    this.scroll = new Bscroll(this.$refs.wrapper, {
-      click: true
-    })
+    this.initScroll()
   }
 }
 </script>

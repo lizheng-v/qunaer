@@ -26,12 +26,16 @@ export default {
   data () {
     return {
       touchStatus: false,
-      startY: 0,
+      itemHeight: 20,
       timer: null
     }
   },
   updated () {
-    this.startY = this.$refs['A'][0].offsetTop
+    const firstLetter = this.letters[0]
+    const firstItem = firstLetter && this.$refs[firstLetter]
+    if (firstItem && firstItem[0]) {
+      this.itemHeight = firstItem[0].offsetHeight
+    }
   },
   methods: {
     handleLetterClick (e) {
@@ -46,8 +50,9 @@ export default {
           clearTimeout(this.timer)
         }
         this.timer = setTimeout(() => {
-          const touchY = e.touches[0].clientY - 79
-          const index = Math.floor((touchY - this.startY) / 20)
+          const listTop = this.$el.getBoundingClientRect().top
+          const touchY = e.touches[0].clientY - listTop
+          const index = Math.floor(touchY / this.itemHeight)
           if (index >= 0 && index < this.letters.length) {
             this.$emit('change', this.letters[index])
           }

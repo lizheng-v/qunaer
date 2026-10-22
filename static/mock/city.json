@@ -1,0 +1,141 @@
+{
+  "ret": true,
+  "data": {
+    "cities": {
+      "A": [
+        {"id": "0101", "name": "阿坝", "spell": "aba"},
+        {"id": "0102", "name": "阿克苏", "spell": "akesu"},
+        {"id": "0103", "name": "鞍山", "spell": "anshan"}
+      ],
+      "B": [
+        {"id": "0201", "name": "北京", "spell": "beijing"},
+        {"id": "0202", "name": "保定", "spell": "baoding"},
+        {"id": "0203", "name": "包头", "spell": "baotou"},
+        {"id": "0204", "name": "本溪", "spell": "benxi"}
+      ],
+      "C": [
+        {"id": "0301", "name": "成都", "spell": "chengdu"},
+        {"id": "0302", "name": "重庆", "spell": "chongqing"},
+        {"id": "0303", "name": "长沙", "spell": "changsha"},
+        {"id": "0304", "name": "常州", "spell": "changzhou"}
+      ],
+      "D": [
+        {"id": "0401", "name": "大连", "spell": "dalian"},
+        {"id": "0402", "name": "东莞", "spell": "dongguan"},
+        {"id": "0403", "name": "大庆", "spell": "daqing"}
+      ],
+      "E": [
+        {"id": "0501", "name": "恩施", "spell": "enshi"},
+        {"id": "0502", "name": "鄂尔多斯", "spell": "eerduosi"}
+      ],
+      "F": [
+        {"id": "0601", "name": "福州", "spell": "fuzhou"},
+        {"id": "0602", "name": "佛山", "spell": "foshan"},
+        {"id": "0603", "name": "抚顺", "spell": "fushun"}
+      ],
+      "G": [
+        {"id": "0701", "name": "广州", "spell": "guangzhou"},
+        {"id": "0702", "name": "桂林", "spell": "guilin"},
+        {"id": "0703", "name": "贵阳", "spell": "guiyang"}
+      ],
+      "H": [
+        {"id": "0801", "name": "杭州", "spell": "hangzhou"},
+        {"id": "0802", "name": "哈尔滨", "spell": "haerbin"},
+        {"id": "0803", "name": "合肥", "spell": "hefei"},
+        {"id": "0804", "name": "海口", "spell": "haikou"}
+      ],
+      "J": [
+        {"id": "0901", "name": "济南", "spell": "jinan"},
+        {"id": "0902", "name": "嘉兴", "spell": "jiaxing"},
+        {"id": "0903", "name": "金华", "spell": "jinhua"},
+        {"id": "0904", "name": "江门", "spell": "jiangmen"}
+      ],
+      "K": [
+        {"id": "1001", "name": "昆明", "spell": "kunming"},
+        {"id": "1002", "name": "开封", "spell": "kaifeng"},
+        {"id": "1003", "name": "克拉玛依", "spell": "kelamayi"}
+      ],
+      "L": [
+        {"id": "1101", "name": "兰州", "spell": "lanzhou"},
+        {"id": "1102", "name": "拉萨", "spell": "lasa"},
+        {"id": "1103", "name": "洛阳", "spell": "luoyang"},
+        {"id": "1104", "name": "连云港", "spell": "lianyungang"}
+      ],
+      "M": [
+        {"id": "1201", "name": "马鞍山", "spell": "maanshan"},
+        {"id": "1202", "name": "茂名", "spell": "maoming"},
+        {"id": "1203", "name": "绵阳", "spell": "mianyang"},
+        {"id": "1204", "name": "牡丹江", "spell": "mudanjiang"}
+      ],
+      "N": [
+        {"id": "1301", "name": "南京", "spell": "nanjing"},
+        {"id": "1302", "name": "南昌", "spell": "nanchang"},
+        {"id": "1303", "name": "南宁", "spell": "nanning"},
+        {"id": "1304", "name": "宁波", "spell": "ningbo"}
+      ],
+      "P": [
+        {"id": "1401", "name": "莆田", "spell": "putian"},
+        {"id": "1402", "name": "平顶山", "spell": "pingdingshan"},
+        {"id": "1403", "name": "盘锦", "spell": "panjin"}
+      ],
+      "Q": [
+        {"id": "1501", "name": "青岛", "spell": "qingdao"},
+        {"id": "1502", "name": "秦皇岛", "spell": "qinhuangdao"},
+        {"id": "1503", "name": "齐齐哈尔", "spell": "qiqihaer"},
+        {"id": "1504", "name": "泉州", "spell": "quanzhou"}
+      ],
+      "R": [
+        {"id": "1601", "name": "日照", "spell": "rizhao"}
+      ],
+      "S": [
+        {"id": "1701", "name": "上海", "spell": "shanghai"},
+        {"id": "1702", "name": "深圳", "spell": "shenzhen"},
+        {"id": "1703", "name": "苏州", "spell": "suzhou"},
+        {"id": "1704", "name": "沈阳", "spell": "shenyang"},
+        {"id": "1705", "name": "石家庄", "spell": "shijiazhuang"}
+      ],
+      "T": [
+        {"id": "1801", "name": "天津", "spell": "tianjin"},
+        {"id": "1802", "name": "太原", "spell": "taiyuan"},
+        {"id": "1803", "name": "唐山", "spell": "tangshan"},
+        {"id": "1804", "name": "台州", "spell": "taizhou"}
+      ],
+      "W": [
+        {"id": "1901", "name": "武汉", "spell": "wuhan"},
+        {"id": "1902", "name": "无锡", "spell": "wuxi"},
+        {"id": "1903", "name": "温州", "spell": "wenzhou"},
+        {"id": "1904", "name": "乌鲁木齐", "spell": "wulumuqi"}
+      ],
+      "X": [
+        {"id": "2001", "name": "西安", "spell": "xian"},
+        {"id": "2002", "name": "厦门", "spell": "xiamen"},
+        {"id": "2003", "name": "徐州", "spell": "xuzhou"},
+        {"id": "2004", "name": "西宁", "spell": "xining"}
+      ],
+      "Y": [
+        {"id": "2101", "name": "烟台", "spell": "yantai"},
+        {"id": "2102", "name": "扬州", "spell": "yangzhou"},
+        {"id": "2103", "name": "银川", "spell": "yinchuan"},
+        {"id": "2104", "name": "宜昌", "spell": "yichang"}
+      ],
+      "Z": [
+        {"id": "2201", "name": "郑州", "spell": "zhengzhou"},
+        {"id": "2202", "name": "珠海", "spell": "zhuhai"},
+        {"id": "2203", "name": "中山", "spell": "zhongshan"},
+        {"id": "2204", "name": "淄博", "spell": "zibo"}
+      ]
+    },
+    "hotCities": [
+      {"id": "0201", "name": "北京", "spell": "beijing"},
+      {"id": "1701", "name": "上海", "spell": "shanghai"},
+      {"id": "0701", "name": "广州", "spell": "guangzhou"},
+      {"id": "1702", "name": "深圳", "spell": "shenzhen"},
+      {"id": "0301", "name": "成都", "spell": "chengdu"},
+      {"id": "0801", "name": "杭州", "spell": "hangzhou"},
+      {"id": "2001", "name": "西安", "spell": "xian"},
+      {"id": "0302", "name": "重庆", "spell": "chongqing"},
+      {"id": "1301", "name": "南京", "spell": "nanjing"},
+      {"id": "1901", "name": "武汉", "spell": "wuhan"}
+    ]
+  }
+}

@@ -10,7 +10,7 @@
       </div>
     </div>
   </div>
-</template>n
+</template>
 
 <script>
 export default {

@@ -1,0 +1,64 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "北京故宫博物院",
+    "bannerImg": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beijing%20Forbidden%20City%20Hall%20of%20Supreme%20Harmony%20panorama%20travel%20photo&image_size=landscape_16_9",
+    "gallaryImgs": [
+      "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beijing%20Forbidden%20City%20golden%20roof%20detail%20travel%20photo&image_size=landscape_4_3",
+      "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beijing%20Forbidden%20City%20red%20wall%20corridor%20travel%20photo&image_size=landscape_4_3",
+      "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beijing%20Forbidden%20City%20courtyard%20marble%20staircase%20travel%20photo&image_size=landscape_4_3",
+      "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beijing%20Forbidden%20City%20imperial%20garden%20pavilion%20travel%20photo&image_size=landscape_4_3"
+    ],
+    "categoryList": [
+      {
+        "title": "成人票",
+        "children": [
+          {
+            "title": "故宫博物院成人票",
+            "children": [
+              {"title": "成人票 · 上午场"},
+              {"title": "成人票 · 下午场"},
+              {"title": "成人票 · 全天场"}
+            ]
+          },
+          {
+            "title": "故宫博物院联票",
+            "children": [
+              {"title": "门票 + 珍宝馆"},
+              {"title": "门票 + 钟表馆"}
+            ]
+          }
+        ]
+      },
+      {
+        "title": "学生票",
+        "children": [
+          {
+            "title": "故宫博物院学生票",
+            "children": [
+              {"title": "学生票 · 凭证入园"}
+            ]
+          }
+        ]
+      },
+      {
+        "title": "讲解服务",
+        "children": [
+          {
+            "title": "人工讲解",
+            "children": [
+              {"title": "中文讲解 · 2 小时"},
+              {"title": "英文讲解 · 2 小时"}
+            ]
+          },
+          {
+            "title": "电子导览",
+            "children": [
+              {"title": "语音导览器租借"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

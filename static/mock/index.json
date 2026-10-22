@@ -1,0 +1,111 @@
+{
+  "ret": true,
+  "data": {
+    "swiperList": [
+      {
+        "id": "0001",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beijing%20Forbidden%20City%20ancient%20palace%20roof%20blue%20sky%20travel%20photo&image_size=landscape_16_9"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Bund%20skyline%20at%20night%20Huangpu%20river%20travel%20photo&image_size=landscape_16_9"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Guilin%20Li%20River%20karst%20mountains%20misty%20landscape%20travel%20photo&image_size=landscape_16_9"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Sanya%20tropical%20beach%20turquoise%20water%20palm%20trees%20travel%20photo&image_size=landscape_16_9"
+      }
+    ],
+    "iconList": [
+      {
+        "id": "1001",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Forbidden%20City%20ticket%20travel%20square%20photo&image_size=square",
+        "desc": "景点门票"
+      },
+      {
+        "id": "1002",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Great%20Wall%20one%20day%20tour%20square%20photo&image_size=square",
+        "desc": "一日游"
+      },
+      {
+        "id": "1003",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=local%20travel%20experience%20street%20market%20square%20photo&image_size=square",
+        "desc": "当地玩乐"
+      },
+      {
+        "id": "1004",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=theme%20park%20ferris%20wheel%20colorful%20square%20photo&image_size=square",
+        "desc": "主题乐园"
+      },
+      {
+        "id": "1005",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=water%20park%20slides%20summer%20square%20photo&image_size=square",
+        "desc": "水上乐园"
+      },
+      {
+        "id": "1006",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=outdoor%20hot%20spring%20resort%20square%20photo&image_size=square",
+        "desc": "温泉"
+      },
+      {
+        "id": "1007",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=family%20travel%20with%20children%20square%20photo&image_size=square",
+        "desc": "亲子游"
+      },
+      {
+        "id": "1008",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=theater%20stage%20performance%20square%20photo&image_size=square",
+        "desc": "演出"
+      }
+    ],
+    "recommendList": [
+      {
+        "id": "2001",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beijing%20Forbidden%20City%20museum%20landscape%20travel%20photo&image_size=landscape_4_3",
+        "title": "北京故宫博物院",
+        "desc": "明清两代皇家宫殿，世界文化遗产"
+      },
+      {
+        "id": "2002",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Badaling%20Great%20Wall%20autumn%20landscape%20travel%20photo&image_size=landscape_4_3",
+        "title": "八达岭长城",
+        "desc": "不到长城非好汉，经典登城打卡地"
+      },
+      {
+        "id": "2003",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Summer%20Palace%20Beijing%20lake%20pavilion%20landscape%20travel%20photo&image_size=landscape_4_3",
+        "title": "颐和园",
+        "desc": "皇家园林博物馆，昆明湖泛舟"
+      },
+      {
+        "id": "2004",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Temple%20of%20Heaven%20Beijing%20blue%20sky%20landscape%20travel%20photo&image_size=landscape_4_3",
+        "title": "天坛公园",
+        "desc": "古代祭祀建筑群，祈年殿地标"
+      }
+    ],
+    "weekendList": [
+      {
+        "id": "3001",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Gubei%20Water%20Town%20canal%20night%20lights%20landscape%20travel%20photo&image_size=landscape_16_9",
+        "title": "古北水镇",
+        "desc": "长城脚下的江南水乡，夜景值得一看"
+      },
+      {
+        "id": "3002",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shidu%20river%20rafting%20green%20mountains%20landscape%20travel%20photo&image_size=landscape_16_9",
+        "title": "十渡漂流",
+        "desc": "京郊山水漂流，夏日避暑好去处"
+      },
+      {
+        "id": "3003",
+        "imgUrl": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Mutianyu%20Great%20Wall%20green%20mountains%20landscape%20travel%20photo&image_size=landscape_16_9",
+        "title": "慕田峪长城",
+        "desc": "植被覆盖率高的长城段，人少景美"
+      }
+    ]
+  }
+}

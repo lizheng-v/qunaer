@@ -26,7 +26,8 @@ export default {
     return {
       keyword: '',
       list: [],
-      timer: null
+      timer: null,
+      scroll: null
     }
   },
   computed: {
@@ -54,6 +55,13 @@ export default {
           })
         }
         this.list = result
+        this.$nextTick(() => {
+          if (!this.scroll) {
+            this.scroll = new Bscroll(this.$refs.search)
+          } else {
+            this.scroll.refresh()
+          }
+        })
       }, 100)
     }
   },
@@ -63,9 +71,6 @@ export default {
       this.$router.push('/')
     },
     ...mapMutations(['changeCity'])
-  },
-  mounted () {
-    this.scroll = new Bscroll(this.$refs.search)
   }
 }
 </script>

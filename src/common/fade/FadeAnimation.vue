@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
+<style lang="stylus">
   .v-enter, .v-leave-to
     opacity 0
   .v-enter-active, .v-leave-active
