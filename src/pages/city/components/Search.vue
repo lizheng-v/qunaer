@@ -37,6 +37,14 @@ export default {
   },
   watch: {
     keyword () {
+      this.getSearchList()
+    },
+    cities () {
+      this.getSearchList()
+    }
+  },
+  methods: {
+    getSearchList () {
       if (this.timer) {
         clearTimeout(this.timer)
       }
@@ -63,14 +71,19 @@ export default {
           }
         })
       }, 100)
-    }
-  },
-  methods: {
+    },
     handleCityClick (city) {
       this.changeCity(city)
       this.$router.push('/')
     },
     ...mapMutations(['changeCity'])
+  },
+  deactivated () {
+    if (this.timer) {
+      clearTimeout(this.timer)
+    }
+    this.keyword = ''
+    this.list = []
   }
 }
 </script>

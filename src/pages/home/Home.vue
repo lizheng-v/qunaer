@@ -1,6 +1,7 @@
 <template>
   <div>
     <home-header></home-header>
+    <div v-if="loadError" class="load-error">数据加载失败，请检查网络后刷新重试</div>
     <home-swiper :list="swiperList"></home-swiper>
     <home-icons :list="iconList"></home-icons>
     <home-recommend :list="recommendList"></home-recommend>
@@ -29,6 +30,7 @@ export default {
   data () {
     return {
       lastCity: '',
+      loadError: false,
       swiperList: [],
       iconList: [],
       recommendList: [],
@@ -40,8 +42,13 @@ export default {
   },
   methods: {
     getHomeInfo () {
-      axios.get('/api/index.json?city=' + this.city)
+      this.loadError = false
+      axios.get('/static/mock/index.json?city=' + this.city)
         .then(this.getHomeInfoSucc)
+        .catch(this.getHomeInfoError)
+    },
+    getHomeInfoError () {
+      this.loadError = true
     },
     getHomeInfoSucc (res) {
       res = res.data
@@ -67,4 +74,10 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="stylus" scoped>
+  .load-error
+    padding .3rem 0
+    text-align center
+    font-size .28rem
+    color #999
+</style>

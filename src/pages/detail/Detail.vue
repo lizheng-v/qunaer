@@ -6,6 +6,7 @@
     :bannerImgs="gallaryImgs"
   ></detail-banner>
   <detail-header></detail-header>
+  <div v-if="loadError" class="load-error">数据加载失败，请检查网络后刷新重试</div>
   <div class="content">
     <detail-list :list="list"></detail-list>
   </div>
@@ -30,16 +31,22 @@ export default {
       sightName: '',
       bannerImg: '',
       gallaryImgs: [],
-      list: []
+      list: [],
+      loadError: false
     }
   },
   methods: {
     getDetailInfo () {
-      axios.get('/api/detail.json', {
+      this.loadError = false
+      axios.get('/static/mock/detail.json', {
         params: {
           id: this.$route.params.id
         }
       }).then(this.handleGetDataSucc)
+        .catch(this.handleGetDataError)
+    },
+    handleGetDataError () {
+      this.loadError = true
     },
     handleGetDataSucc (res) {
       res = res.data
@@ -61,4 +68,9 @@ export default {
 <style lang="stylus" scoped>
   .content
     height 50rem
+  .load-error
+    padding .3rem 0
+    text-align center
+    font-size .28rem
+    color #999
 </style>
