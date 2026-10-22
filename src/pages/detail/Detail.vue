@@ -66,8 +66,6 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  .content
-    height 50rem
   .load-error
     padding .3rem 0
     text-align center
